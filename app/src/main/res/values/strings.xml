@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bendre Petites Annonces</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bendre Petites Annonces</string>
+    <string name="nav_header_subtitle">L\'appli petites annonces de Bendre</string>
+    <string name="nav_header_desc">Entête</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_gallery">Annonces</string>
+    <string name="menu_slideshow">Déposer une annonce</string>
+    <string name="menu_tools">Catégories</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_send">Envoyer</string>
+</resources>

@@ -1,0 +1,39 @@
+/* Style for mobile app */
+#pacz-header.mobile-header {
+	display: none!important;
+}
+#pacz-footer {
+	display: none!important;
+}
+.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+	padding-top: 0;
+}
+.vc_cta3-content h2.vc_custom_heading {
+    display: none;
+}
+.vc_cta3-content p {
+    display: none;
+}
+.petite_une.wpb_column.vc_column_container.vc_col-sm-4 {
+    height: auto;
+}
+.vc_cta3-container {
+    margin-bottom: 0px;
+}
+.vc_general.vc_cta3 {
+    padding: 0 28px;
+}
+.petite_une.wpb_column.vc_column_container.vc_col-sm-4 {
+    margin-top: 5px;
+}
+#pacz-page-title {
+	padding-top: 0px !important;
+    height: auto !important;
+}
+#pacz-page-title .pacz-page-title-bg {
+    background-color: #C01F30 !important;
+    border-bottom: 1px solid #C01F30 !important;
+}
+.main-search-bar .alsp-content.alsp-search-form {
+    margin: 55px 0 0 0!important;
+}
