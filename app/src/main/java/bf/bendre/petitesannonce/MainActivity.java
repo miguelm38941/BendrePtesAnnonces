@@ -221,14 +221,17 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
             startWebView("http://petitesannonces.landela.org");
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_annonces) {
             startWebView("http://petitesannonces.landela.org/annonces/");
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_deposer_annonce) {
             startWebView("http://petitesannonces.landela.org/soumettre-annonce/");
-        } else if (id == R.id.nav_tools) {
-            startWebView("http://petitesannonces.landela.org");
+        } else if (id == R.id.nav_categorie) {
+            startWebView("http://petitesannonces.landela.org/categories/");
         } else if (id == R.id.nav_share) {
-
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, "");
+            startActivity(Intent.createChooser(intent, "Partager avec"));
         } else if (id == R.id.nav_send) {
 
         }
@@ -237,4 +240,5 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }
